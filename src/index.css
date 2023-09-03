@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat&family=Playfair+Display:wght@500&family=Reem+Kufi:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  color: #fff;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.app{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-family: 'Mogra', cursive;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.content_title{
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content_description {
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.form .form_input{
+  max-width: 500px;
+  min-width: 300px;
+  height: 38px;
+  background: white;
+  outline: none;
+  border: none;
+  text-indent: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.form .form_button {
+  width: 100px;
+  height: 30px;
+  background: #D9AFD9;
+  border: none;
+  outline: none;
+  color: #2d2d2d;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+.download_btn {
+  color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+  .content {
+    margin-top: 10rem;
+  }
+  .content_title {
+    font-size: 40px;
+  }
+}
